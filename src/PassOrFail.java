@@ -26,6 +26,22 @@ public class PassOrFail                     //need to find out if student has pa
             {
                 System.out.println("Fail");
             }
+            if (((gs+hs+ss)/3)>=80)                                 //grade A+ if % is more than 80
+            {
+                System.out.println("Grade A+");
+            }
+            else if (((gs+hs+ss)/3)>=60)                            //grade A if % is more than 60
+            {
+                System.out.println("Grade A");
+            }
+            else if (((gs+hs+ss)/3)>=50)                             //grade B if % is more than 50
+            {
+                System.out.println("Grade B");
+            }
+            else if (((gs+hs+ss)/3)>=35)                             //grade C if % is more than 40
+            {
+                System.out.println("Grade C");
+            }
         }
     }
 }
