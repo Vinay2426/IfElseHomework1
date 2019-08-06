@@ -2,7 +2,7 @@ import java.util.Scanner;
 
 public class StudentsGrade                              //need to find student's marks total, %, result and grade
 {
-public static void main(String [] args)
+public static void main(String[]args)
 {
     Scanner scanner = new Scanner (System.in);              //scanner method is called
     System.out.println("Input Student's Name:");
