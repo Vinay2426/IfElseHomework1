@@ -6,8 +6,8 @@ public class MethodPractice1
     public static void main(String[] args) {
 
 
-        //MethodPractice1 methodPractice1 = new MethodPractice1();
+        MethodPractice1 methodPractice1 = new MethodPractice1();
 
-        System.out.println(methodPractice1.a)
+        System.out.println(methodPractice1.a);
     }
 }
