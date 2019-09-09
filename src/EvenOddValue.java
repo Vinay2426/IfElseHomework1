@@ -5,9 +5,9 @@ public class EvenOddValue                       //ternary operator has been used
 public static void main(String []args)
 {
     Scanner scanner = new Scanner (System.in);  //scanner method is used to enter the value in console
-System.out.println("Enter the first value");
-int a = scanner.nextInt();
-System.out.println((a%2==0) ? "The value is Even" : "The value is Odd");
+    System.out.println("Enter the first value");
+    int a = scanner.nextInt();
+    System.out.println((a%2==0) ? "The value is Even" : "The value is Odd");
 
     System.out.println("Enter the second value");
     int b = scanner.nextInt();

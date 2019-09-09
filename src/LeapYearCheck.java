@@ -7,8 +7,8 @@ public static void main(String [] args)
  Scanner scanner = new Scanner (System.in);
  System.out.println("Enter any year");
  int year = scanner.nextInt();
- if (year % 4 == 0)                     //if year is divided by 4 then it's leap year
- {                                      //if-else method has been used here
+ if ((year % 400 == 0)||(year % 4 == 0) && (year % 100 != 0))            //if year is divided by 4 then it's leap year
+ {                                                                       //if-else method has been used here
      System.out.println("Year is Leap Year");
  }
  else

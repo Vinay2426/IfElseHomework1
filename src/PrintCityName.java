@@ -10,12 +10,18 @@ public static void main(String[]args)
 
     /*switch (cityName)
     {
-        case 'a': System.out.println("Aberdeen"); break;
-        case 'b': System.out.println("Bradford"); break;
-        case 'c': System.out.println("Cardiff"); break;
-        case 'd': System.out.println("Doncaster"); break;
-        case 'e': System.out.println("Exeter"); break;
-        case 'f': System.out.println("Forest Hill"); break;
+        case 'a': System.out.println("Aberdeen");
+                  break;
+        case 'b': System.out.println("Bradford");
+                  break;
+        case 'c': System.out.println("Cardiff");
+                  break;
+        case 'd': System.out.println("Doncaster");
+                  break;
+        case 'e': System.out.println("Exeter");
+                  break;
+        case 'f': System.out.println("Forest Hill");
+                  break;
 
         default: System.out.println("Invalid Entry");           //rest of a-f are invalid city character set as per the requirement
     }*/
